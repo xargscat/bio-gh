@@ -1,1 +1,4 @@
-curl -s https://api.github.com/users/u0a316 | jq -r .bio
+#!/usr/bin/bash
+
+logged=$(gh api https://api.github.com/user | jq -r .login)
+curl -s https://api.github.com/users/${logged} | jq -r .bio
