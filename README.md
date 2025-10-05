@@ -10,7 +10,7 @@ bio-gh is a small CLI tool written in Go that prints the GitHub bio of the curre
 
 ## Installation:
 ```sh
-go install github.com/u0a316/bio-gh@v1.0.0
+go install github.com/xargscat/bio-gh@v1.0.0
 ```
 
 ## Building
